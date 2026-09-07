@@ -1,0 +1,17 @@
+{
+  "name": "node",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --no-warnings main.ts",
+    "test": "node --no-warnings --test main.test.ts",
+    "typecheck": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^26.5.0",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "node-sql-parser": "^5.4.0"
+  }
+}
